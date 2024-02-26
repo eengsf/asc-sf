@@ -39,7 +39,7 @@ const Navbar = () => {
         `}>
           <div className="flex gap-2">
             <div className="cursor-pointer">
-              <Image src="/logo.png" width={40} height={40} />
+              <Image src="/logo.png" alt="logo" width={40} height={40} />
             </div>
             <div>
               <h1 className="text-sm font-bold">Eeng Sf</h1>

@@ -13,6 +13,7 @@ const Hero = ({ img, name }) => {
       <div className="2md:w-5/6 w-full mx-auto py-3 ">
         <Image
           src={img}
+          alt="image"
           width={1920}
           height={1080}
           className="object-cover rounded-xl"

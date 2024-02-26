@@ -7,6 +7,7 @@ const GalleryImage = ({ img, name }) => {
       <div className="relative ">
         <Image
           src={img}
+          alt="image"
           width={1920}
           height={1080}
           className="object-cover rounded-lg"

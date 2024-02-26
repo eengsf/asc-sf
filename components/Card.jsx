@@ -12,7 +12,7 @@ const Card = () => {
           height={90}
           className="border rounded-full p-2"
         />
-        <p className="text-sm">Available for new projects! Let's chat👋</p>
+        <p className="text-sm">Available for new projects! Let's chat</p>
         <p className="text-lg">eengsf@gmail.com</p>
       </div>
     </div>
