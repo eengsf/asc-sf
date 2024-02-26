@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { LuDatabase } from "react-icons/lu";
 import { useSelector } from "react-redux";
+import { IoBookmarkOutline } from "react-icons/io5";
 
 const Navbar = () => {
   const [scroll, setScroll] = useState();
@@ -52,18 +53,18 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
-            <div className="border hover:border-black border-slate-500 rounded-full p-2 w-8 h-8 flex justify-center items-center">
+            <div className="border hover:border-black border-slate-500 rounded-full p-2 w-8 h-8 flex justify-center items-center cursor-pointer">
               <IoMdHeartEmpty size={15} />
             </div>
-            <div className="border hover:border-black border-slate-500 rounded-full p-2 w-8 h-8 flex justify-center items-center">
-              <IoMdHeartEmpty size={15} />
+            <div className="border hover:border-black border-slate-500 rounded-full p-2 w-8 h-8 flex justify-center items-center cursor-pointer">
+              <IoBookmarkOutline size={15} />
             </div>
             <div className=" ss:block hidden">
               <button className="bg-black text-xs text-white font-bold py-3 px-5 rounded-full hover:bg-slate-700 ">
                 Gey in touch
               </button>
             </div>
-            <div className="ss:hidden bg-black rounded-full w-8 h-8 flex justify-center items-center">
+            <div className="ss:hidden bg-black rounded-full w-8 h-8 flex justify-center items-center cursor-pointer">
               <LuDatabase size={15} className=" text-white" />
             </div>
           </div>
