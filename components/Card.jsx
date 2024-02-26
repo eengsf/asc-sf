@@ -7,6 +7,7 @@ const Card = () => {
         <p className="text-lg">Thank you for your attention!</p>
         <Image
           src="/logo.png"
+          alt="logo"
           width={90}
           height={90}
           className="border rounded-full p-2"

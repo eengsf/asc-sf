@@ -14,6 +14,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/animation.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -23,6 +24,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/branding.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -32,6 +34,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/illustration.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -41,6 +44,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/mobile.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -50,6 +54,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/print.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -59,6 +64,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/product-design.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -68,6 +74,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/typography.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -77,6 +84,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/web-design.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -88,6 +96,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/animation.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -97,6 +106,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/branding.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -106,6 +116,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/illustration.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -115,6 +126,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/mobile.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -124,6 +136,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/print.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -133,6 +146,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/product-design.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -142,6 +156,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/typography.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"
@@ -151,6 +166,7 @@ const GallerySlide = () => {
           <div className="flex flex-col gap-2">
             <Image
               src="/img/web-design.png"
+              alt="image"
               width={200}
               height={120}
               className=" border-2 border-slate-300 rounded-lg   p-1"

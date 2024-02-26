@@ -28,7 +28,7 @@ const Card1 = () => {
         <div className="w-full flex justify-center items-center gap-3">
           <div className="w-1/3 border border-slate-300"></div>
           <div className="flex flex-col gap-5 items-center">
-            <Image src="/logo.png" width={75} height={75} />
+            <Image src="/logo.png" alt="logo" width={75} height={75} />
             <p className="text-lg">EengSF</p>
             <button className="bg-black text-xs text-white font-bold py-3 px-5 rounded-full hover:bg-slate-700 ss:block hidden">
               Gey in touch

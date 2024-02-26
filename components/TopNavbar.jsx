@@ -26,7 +26,7 @@ const TopNavbar = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [dispath]);
 
   return (
     <div>
