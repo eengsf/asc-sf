@@ -8,7 +8,7 @@ const Contact = () => {
             Presenting Landing Page Design For
             <span className="font-bold">-Real Estate Website.</span>
           </p>
-          <p>Hope you guys enjoy it and press "L" if you like it Thanks!</p>
+          <p>Hope you guys enjoy it and press L if you like it Thanks!</p>
         </div>
         <div>
           <p>
