@@ -1,7 +1,4 @@
-import { useSelector } from "react-redux";
-
 const NavbarListDown = ({ value }) => {
-  const { showLayer } = useSelector((state) => state.counterSlice);
   return (
     <div
       className={`bg-white w-60 p-7 top-10 left-0 shadow-lg rounded-xl flex-col gap-3 absolute hidden ${

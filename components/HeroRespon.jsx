@@ -1,7 +1,6 @@
 import { FiMessageCircle } from "react-icons/fi";
 import { FiUpload } from "react-icons/fi";
 import { FiInfo } from "react-icons/fi";
-import { RxTriangleRight } from "react-icons/rx";
 
 const HeroRespon = () => {
   return (
