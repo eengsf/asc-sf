@@ -27,8 +27,10 @@ const Navbar = () => {
   return (
     <div className={`w-full ${showLayer ? "hidden" : ""}`}>
       <div className="2md:w-5/6 w-full mx-auto px-6">
-        <div className=" 2md:pt-20 pt-10 p-5">
-          <h1 className="text-2xl font-semibold">Real Estate Landing Page</h1>
+        <div className=" 2md:pt-20 pt-10 2md:py-5 py-0">
+          <h1 className="2md:text-2xl text-xl font-semibold">
+            Real Estate Landing Page
+          </h1>
         </div>
         <div
           className={` bg-white py-5 flex justify-between

@@ -19,7 +19,7 @@ const TopNavbarHamburger = () => {
       <span
         className={`bg-black  w-6 h-[3px] block mb-[4px] rounded-sm ${
           showLayer
-            ? "transform origin-top-left rotate-45 transition duration-1000 translate-x-px -translate-y-[2px]"
+            ? "transform origin-top-left rotate-45 transition duration-1000 translate-x-px -translate-y-[3px]"
             : "transform origin-top-left transition duration-1000"
         }`}></span>
       <span

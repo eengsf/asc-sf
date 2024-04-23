@@ -3,8 +3,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
-import { Satisfy } from "next/font/google";
-const satisfy = Satisfy({ subsets: ["latin"], weight: "400" });
+import { Dancing_Script, Satisfy } from "next/font/google";
+const satisfy = Dancing_Script({ subsets: ["latin"], weight: "400" });
 
 const GallerySlide = () => {
   return (
@@ -177,7 +177,7 @@ const GallerySlide = () => {
       </div>
       <div className="flex 2md:flex-row flex-col justify-between w-full m-auto px-10 py-10 items-center gap-5">
         <div>
-          <h1 className={`font-bold text-2xl ${satisfy.className}`}>EengSF</h1>
+          <h1 className={`font-bold text-3xl ${satisfy.className}`}>EengSF</h1>
         </div>
         <div>
           <ul className="flex md:flex-nowrap flex-wrap gap-3 font-semibold justify-center">

@@ -1,16 +1,14 @@
 "use client";
-import { Satisfy } from "next/font/google";
-
 import { CiSearch } from "react-icons/ci";
-
 import { FiSearch } from "react-icons/fi";
 import TopNavbarList from "./TopNavbarList";
 import TopNavbarHamburger from "./TopNavbarHamburger";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { setShowLayer } from "../store/slice/counterSlice";
+import { Dancing_Script } from "next/font/google";
 
-const satisfy = Satisfy({ subsets: ["latin"], weight: "400" });
+const satisfy = Dancing_Script({ subsets: ["latin"], weight: "400" });
 
 const TopNavbar = () => {
   const { showLayer } = useSelector((state) => state.counterSlice);
@@ -30,8 +28,8 @@ const TopNavbar = () => {
 
   return (
     <div>
-      <div className={`navbar px-6 py-6 gap-0 2md:shadow-none shadow-lg`}>
-        <div className={`flex-1 2md:gap-8 gap-0 `}>
+      <div className={`navbar px-6 py-6 gap-0 2md:shadow-none shadow-lg `}>
+        <div className={`flex-1 2md:gap-8 gap-0 flex items-center`}>
           <TopNavbarHamburger />
           <div>
             <a
@@ -70,7 +68,7 @@ const TopNavbar = () => {
             </button>
           </div>
           <div>
-            <button className="bg-black text-sm text-white font-bold py-4 px-6 rounded-full hover:bg-slate-700">
+            <button className="bg-black text-sm text-white font-bold py-4 px-6 rounded-full hover:bg-slate-400 hover:text-black ">
               Sign up
             </button>
           </div>
